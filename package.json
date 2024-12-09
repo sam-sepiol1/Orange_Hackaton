@@ -1,0 +1,21 @@
+{
+  "name": "orange_hackaton",
+  "version": "1.0.0",
+  "description": "---",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie-session": "^2.1.0",
+    "dotenv": "^16.4.6",
+    "express": "^4.21.1",
+    "node-fetch": "^3.3.2"
+  }
+}

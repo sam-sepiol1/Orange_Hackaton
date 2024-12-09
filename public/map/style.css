@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+header {
+    padding: 10px;
+    z-index: 5000;
+}
+
+h2 {
+    font-size: 22px;
+    color: #00ff00;
+}
+
+em {
+    color: #f28b05;
+    font-style: normal;
+}
+
+#map {
+    height: 100vh;
+    width: 100%;
+
+}
+footer {
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 10000;
+}

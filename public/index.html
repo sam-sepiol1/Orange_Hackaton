@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend+Deca:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="video-container">
+        <form action="/submit" method="POST">
+            <label for="userInput">Enter Phone Number:</label>
+            <input type="tel" id="userInput" pattern="\+[0-9]{11,14}" placeholder="Input your number" name="userInput" required>
+            <button type="submit">Submit</button>
+        </form>
+        <h1>Having fun with <br> <span class="guardian">GUARDIAN</span><br> <span class="safe">Staying safe</span></h1>
+        
+        <div class="alert"> 
+          <form action="/alert" method="POST">
+            <button id="alert"> ALERT </button>
+          </form>
+        </div>
+        
+        <video autoplay muted loop class="bg-video">
+          <source src="./videoplayback.mp4" type="video/mp4">
+          <!-- Texte alternatif si la vidéo ne se charge pas -->
+          Votre navigateur ne supporte pas les vidéos HTML5.
+        </video>
+      </div>
+</body>
+</html>
